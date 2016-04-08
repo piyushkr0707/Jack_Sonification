@@ -13,9 +13,9 @@ var playing = false;
 function preload() 
 {
   img = loadImage("assets/lovejack.jpg");
-  bass_sound    = loadSound('assets/bass.mp3');
-  snare_sound   = loadSound('assets/snare.mp3');
-  highHat_sound = loadSound('assets/High hat.mp3');
+  bass_sound    = loadSound(href="assets/bass.mp3");
+  snare_sound   = loadSound(href="assets/snare.mp3");
+  highHat_sound = loadSound(href="assets/High hat.mp3");
   
 }
  
